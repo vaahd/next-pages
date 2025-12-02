@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Product } from '../types/product'
-import { useCart } from './cartcontext_temp.tsx'
+import { useCart } from './CartContext'
 import { useWishlist } from './WishlistContext'
 import Image from 'next/image'
 import Skeleton from './Skeleton'
