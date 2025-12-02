@@ -1,5 +1,5 @@
 'use client'
-import { Product } from "../types/product_temp";
+import { Product } from "../types/product";
 import ProductCard from "./ProductCard";
 
 export default function ProductGrid({ serverProducts }: { serverProducts: Product[] }) {

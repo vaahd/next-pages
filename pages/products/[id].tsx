@@ -1,6 +1,6 @@
 import { GetServerSideProps } from "next";
 import products from "../data/products.json";
-import { Product } from "../types/product_temp";
+import { Product } from "../types/product";
 import ProductDetailClient from "../components/ProductDetailClient";
 
 interface Props {

@@ -1,6 +1,6 @@
 'use client'
 import React, { createContext, useContext, useEffect, useState } from 'react'
-import { Product } from '../types/product_temp'
+import { Product } from '../types/product'
 
 type WishlistItem = { id: number; product: Product }
 
