@@ -9,5 +9,3 @@ export type Product = {
 };
 
 export default Product;
-
-
