@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { useCart } from './CartContext.js'
+import { useCart } from './CartContext'
 import { useWishlist } from './WishlistContext'
 import { useDarkMode } from './DarkModeContext'
 import Image from 'next/image'

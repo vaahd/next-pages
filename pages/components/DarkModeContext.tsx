@@ -42,3 +42,5 @@ export function useDarkMode() {
   if (!ctx) throw new Error('useDarkMode must be used inside DarkModeProvider')
   return ctx
 }
+
+export default DarkModeContext;  
