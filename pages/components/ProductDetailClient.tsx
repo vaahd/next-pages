@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Product } from '../types/product'
+import { Product } from '../types/product_temp'
 import { useCart } from './CartContext'
 import { useWishlist } from './WishlistContext'
 import Image from 'next/image'

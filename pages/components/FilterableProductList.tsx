@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Skeleton from './Skeleton'
 import ProductCard from './ProductCard'
-import { Product } from '../types/product'
+import { Product } from '../types/product_temp'
 
 export default function FilterableProductList({
   serverProducts,

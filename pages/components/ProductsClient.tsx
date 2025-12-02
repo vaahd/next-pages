@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Skeleton from '../components/Skeleton'
 import ProductCard from '../components/ProductCard'
-import { Product } from '../types/product'
+import { Product } from '../types/product_temp'
 
 export default function ProductsClient({ serverProducts }: { serverProducts: Product[] }) {
   const [loading, setLoading] = useState(true)
