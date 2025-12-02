@@ -14,6 +14,7 @@ import type { AppProps } from 'next/app';
 export default function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
+    //  @ts-ignore 
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
@@ -35,3 +36,4 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     </DarkModeProvider>
   );
 }
+
