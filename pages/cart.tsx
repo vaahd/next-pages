@@ -1,6 +1,6 @@
 'use client'
 
-import { useCart } from './components/CartContext'
+import { useCart } from './components/cartcontext_temp.tsx'
 import Skeleton from './components/Skeleton'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'

@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { useCart } from './CartContext'
+import { useCart } from './cartcontext_temp.tsx'
 import { useWishlist } from './WishlistContext'
 import { useDarkMode } from './DarkModeContext'
 import Image from 'next/image'

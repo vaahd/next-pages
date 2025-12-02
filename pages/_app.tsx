@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { CartProvider } from './components/CartContext';
+import { CartProvider } from './components/cartcontext_temp.tsx';
 import { WishlistProvider } from './components/WishlistContext';
 import { DarkModeProvider } from './components/DarkModeContext';
 
